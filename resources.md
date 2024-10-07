@@ -3,3 +3,4 @@
 3. How to create Docker-compose setup with postgreSQL: https://www.youtube.com/watch?v=qECVC6t_2mU
 4. ChatGPT chat link: https://chatgpt.com/share/67044fe2-b0cc-8001-ba52-b90cdce6aa10
 5. PyCharm https://www.jetbrains.com/pycharm/
+6. Python and PostgreSQL https://www.youtube.com/watch?v=miEFm1CyjfM
