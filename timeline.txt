@@ -1,0 +1,4 @@
+-Learn how to install and use basic functions of TeamCity
+-Learn basics of python
+-Create a small program to test using TeamCity
+-Report back to Gert
