@@ -1,0 +1,19 @@
+Can be used with cloud
+Supports multi platform development, extensive cloud integration, and advanced controls for complex builds
+Can view and manage builds using web UI or utilize kotlin DSL for managing build configurations as code
+Two primary components:
+TeamCity server provies UI for managing build configurations and reviewing results
+the TeamCity build agent executes build configurations and build jobs and can beinstalled on premise or on the cloud
+Works on windows linux and mac
+works with docker, aws, github
+Free version allows for up to 100 build configurations, and 3 build agents
+Paid version allows unlimited build configurations, pricing is based on # of build agents
+A build agent performs the tasks of a build pipeline (checks source code, runs tests, compiles code) 
+On Linux, Java SE JRE installation required? Java 8 support will be discontinued in one of the future TeamCity releases. If you use a non-bundled version of Java 8, we highly recommend that you migrate your server to Java 11 or 17.
+
+teamcity user password: ucdfiehnlab
+room number: 0
+
+
+
+
