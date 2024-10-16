@@ -16,5 +16,10 @@ name: Joe Vogel
 room number: 1228
 other: jvogel@ucdavis.edu
 
+teamCity account (after launching first time)
+user: jvogel
+pass: fiehn
 
+To shutdown teamcity server: ./teamcity-server.sh stop
+To shutdown docker compose: docker compose down
 
