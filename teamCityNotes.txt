@@ -21,6 +21,6 @@ user: jvogel
 pass: fiehn
 
 To startup teamcity server: /opt$ TeamCity/bin/runAll.sh start
-To shutdown teamcity server: ./teamcity-server.sh stop
+To shutdown teamcity server from TeamCity/bin: ./teamcity-server.sh stop
 To shutdown docker compose: docker compose down
 
