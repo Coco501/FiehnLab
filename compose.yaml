@@ -1,0 +1,43 @@
+version: '3'
+
+networks:
+  wcmc:
+    external: false
+
+services:
+
+  # this provides the bot with the main database instance
+  # to keep track of trades
+  postgresql:
+    image: postgres:15.4
+    hostname: postgresql
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=carrot
+      - POSTGRES_PASSWORD=asdf
+      - POSTGRES_DB=carrot-test
+    networks:
+      - wcmc
+
+  # allows for easy tuning of the postgres database and showing bottlenecks
+  postgresql-hero:
+    image: ankane/pghero
+    ports:
+      - 8081:8080
+    environment:
+      - DATABASE_URL=postgres://carrot:asdf@postgresql:5432/carrot-test
+    networks:
+      - wcmc
+    deploy:
+      mode: replicated
+
+  # CI server
+  #teamcity:
+  # image: jetbrains/teamcity-server
+  #  ports:
+  #   - 8111:8111
+  # networks:
+  #   - wcmc

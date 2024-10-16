@@ -12,8 +12,9 @@ A build agent performs the tasks of a build pipeline (checks source code, runs t
 On Linux, Java SE JRE installation required? Java 8 support will be discontinued in one of the future TeamCity releases. If you use a non-bundled version of Java 8, we highly recommend that you migrate your server to Java 11 or 17.
 
 teamcity user password: ucdfiehnlab
-room number: 0
-
+name: Joe Vogel
+room number: 1228
+other: jvogel@ucdavis.edu
 
 
 
