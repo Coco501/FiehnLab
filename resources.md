@@ -10,3 +10,4 @@ https://www.youtube.com/watch?v=RfIwuZSUjro
 https://www.youtube.com/watch?v=SYjnb7pW4Cg&list=PLQ176FUIyIUbqxhNJKIck4V_J2yDLbnb2&index=3
 https://www.youtube.com/watch?v=2do8Mby92LI&list=PLQ176FUIyIUZYwvmi81qloBtZGi40C05m
 https://www.youtube.com/watch?v=zqi4fDF-S60
+9. Python learning: https://www.w3schools.com/python/python_variables_multiple.asp
