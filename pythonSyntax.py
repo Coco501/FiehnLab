@@ -83,5 +83,28 @@ if x:
 
 print('x is false')
 """
-
-
+#check if a variable is a certain datatype: print(isinstance(x, int))
+#exponentiation in python is written as **, and floor division is //
+#and, or, and not logical operators are just written using their english words
+#Identity operators are used to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location: (using is and is not)
+#Bitwise operators though, are the same as C, &, |, ^, and ~
+"""
+Highest to Lowest precedence of operations:
+() 	                Parentheses 	
+** 	                Exponentiation 	
++x  -x  ~x 	        Unary plus, unary minus, and bitwise NOT 	
+*  /  //  % 	    Multiplication, division, floor division, and modulus 	
++  - 	            Addition and subtraction 	
+<<  >>          	Bitwise left and right shifts 	
+& 	                Bitwise AND 	
+^ 	                Bitwise XOR 	
+| 	                Bitwise OR 	
+==  !=  >  >=  <  <=  is  is not  in  not in  	Comparisons, identity, and membership operators 	
+not 	            Logical NOT 	
+and 	            AND 	
+or 	                OR
+"""
+#can print entire list very easily print(listName)
+#to get the length of a list, use len(listName)
+#a list can contain different data types within itself, unlike C++ where we need a struct
+#lists are the data type 'list'
